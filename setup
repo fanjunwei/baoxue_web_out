@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo chown tomcat7:tomcat7 -R .
+sudo /etc/init.d/tomcat7 restart
