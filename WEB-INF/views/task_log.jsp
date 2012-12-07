@@ -54,7 +54,7 @@
 			<s:param name="first" value="1" />
 			<s:param name="last" value="%{pageCount}" />
 			<s:iterator id="pp">
-				<s:if test="(#pp-1)==taskPageIndex">
+				<s:if test="(#pp-1)==pageIndex">
 				第<s:property />页
 				</s:if>
 				<s:else>
